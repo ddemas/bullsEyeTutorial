@@ -454,6 +454,7 @@
 				CB86CA4519B77B7D00EDEAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB86CA4619B77B7D00EDEAAF /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +463,7 @@
 				CB86CA4819B77B7D00EDEAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
