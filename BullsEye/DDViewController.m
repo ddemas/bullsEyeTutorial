@@ -13,6 +13,9 @@
 @end
 
 @implementation DDViewController
+{
+    int _currentValue;
+}
 
 - (void)viewDidLoad
 {
@@ -28,14 +31,22 @@
 
 - (IBAction)showAlert
 {
+    NSString *message = [NSString stringWithFormat:
+      @"The value of the slider is: %d", _currentValue];
+    
     UIAlertView *alertView = [[UIAlertView alloc]
       initWithTitle:@"Hello World!"
-      message:@"This is my first app"
+      message:message
       delegate:nil
       cancelButtonTitle:@"Awesome"
       otherButtonTitles:nil];
     
     [alertView show];
+}
+
+- (IBAction)sliderMoved:(UISlider *)slider
+{
+    _currentValue = lroundf(slider.value);
 }
 
 @end
