@@ -10,4 +10,6 @@
 
 @interface DDViewController : UIViewController
 
+- (IBAction)showAlert;
+
 @end
