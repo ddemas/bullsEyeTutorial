@@ -11,6 +11,8 @@
 @interface DDViewController : UIViewController
 
 @property (nonatomic, weak) IBOutlet UILabel *targetLabel;
+@property (nonatomic, weak) IBOutlet UILabel *scoreLabel;
+@property (nonatomic, weak) IBOutlet UILabel *roundLabel;
 @property (nonatomic,weak) IBOutlet UISlider *slider;
 
 - (IBAction)showAlert;
