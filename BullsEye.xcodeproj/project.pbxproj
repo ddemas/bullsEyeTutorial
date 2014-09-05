@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0C502F19B9616200FAD89F /* DDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C502E19B9616200FAD89F /* DDAboutViewController.m */; };
 		CB86CA0F19B77B7B00EDEAAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB86CA0E19B77B7B00EDEAAF /* UIKit.framework */; };
 		CB86CA1119B77B7B00EDEAAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB86CA1019B77B7B00EDEAAF /* Foundation.framework */; };
 		CB86CA1319B77B7B00EDEAAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB86CA1219B77B7B00EDEAAF /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB0C502D19B9616200FAD89F /* DDAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAboutViewController.h; sourceTree = "<group>"; };
+		CB0C502E19B9616200FAD89F /* DDAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAboutViewController.m; sourceTree = "<group>"; };
 		CB86CA0B19B77B7B00EDEAAF /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB86CA0E19B77B7B00EDEAAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB86CA1019B77B7B00EDEAAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				CB86CA2619B77B7C00EDEAAF /* MainStoryboard.storyboard */,
 				CB86CA2919B77B7C00EDEAAF /* DDViewController.h */,
 				CB86CA2A19B77B7D00EDEAAF /* DDViewController.m */,
+				CB0C502D19B9616200FAD89F /* DDAboutViewController.h */,
+				CB0C502E19B9616200FAD89F /* DDAboutViewController.m */,
 				CB86CA1519B77B7B00EDEAAF /* Supporting Files */,
 			);
 			path = BullsEye;
@@ -272,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0C502F19B9616200FAD89F /* DDAboutViewController.m in Sources */,
 				CB86CA1B19B77B7B00EDEAAF /* main.m in Sources */,
 				CB86CA1F19B77B7B00EDEAAF /* DDAppDelegate.m in Sources */,
 				CB86CA2B19B77B7D00EDEAAF /* DDViewController.m in Sources */,
