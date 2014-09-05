@@ -41,6 +41,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
 - (IBAction)showAlert
 {
     int difference = abs(_targetValue - _currentValue);
