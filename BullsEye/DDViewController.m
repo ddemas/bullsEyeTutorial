@@ -23,7 +23,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	[self startNewRound];
+	[self startNewGame];
     [self updateLabels];
 }
 
@@ -75,6 +75,19 @@
       otherButtonTitles:nil];
     
     [alertView show];
+}
+
+- (IBAction)startOver
+{
+    [self startNewGame];
+    [self updateLabels];
+}
+
+- (void)startNewGame
+{
+    _score = 0;
+    _round = 0;
+    [self startNewRound];
 }
 
 - (IBAction)sliderMoved:(UISlider *)slider
