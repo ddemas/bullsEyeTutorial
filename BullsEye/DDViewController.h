@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DDViewController : UIViewController
+@interface DDViewController : UIViewController <UIAlertViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UILabel *targetLabel;
 @property (nonatomic, weak) IBOutlet UILabel *scoreLabel;

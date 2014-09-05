@@ -70,14 +70,11 @@
     UIAlertView *alertView = [[UIAlertView alloc]
       initWithTitle:title
       message:message
-      delegate:nil
+      delegate:self
       cancelButtonTitle:@"OK"
       otherButtonTitles:nil];
     
     [alertView show];
-    
-    [self startNewRound];
-    [self updateLabels];
 }
 
 - (IBAction)sliderMoved:(UISlider *)slider
@@ -90,6 +87,12 @@
     self.targetLabel.text = [NSString stringWithFormat:@"%d", _targetValue];
     self.scoreLabel.text = [NSString stringWithFormat:@"%d", _score];
     self.roundLabel.text = [NSString stringWithFormat:@"%d", _round];
+}
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+    [self startNewRound];
+    [self updateLabels];
 }
 
 @end
