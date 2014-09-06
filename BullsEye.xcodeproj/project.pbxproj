@@ -10,6 +10,7 @@
 		CB0C502F19B9616200FAD89F /* DDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C502E19B9616200FAD89F /* DDAboutViewController.m */; };
 		CB0C503119B9733F00FAD89F /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0C503019B9733F00FAD89F /* images.xcassets */; };
 		CB0C503319BA23B600FAD89F /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = CB0C503219BA23B600FAD89F /* BullsEye.html */; };
+		CB0C507619BAB17C00FAD89F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C507519BAB17C00FAD89F /* QuartzCore.framework */; };
 		CB86CA0F19B77B7B00EDEAAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB86CA0E19B77B7B00EDEAAF /* UIKit.framework */; };
 		CB86CA1119B77B7B00EDEAAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB86CA1019B77B7B00EDEAAF /* Foundation.framework */; };
 		CB86CA1319B77B7B00EDEAAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB86CA1219B77B7B00EDEAAF /* CoreGraphics.framework */; };
@@ -43,6 +44,7 @@
 		CB0C502E19B9616200FAD89F /* DDAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAboutViewController.m; sourceTree = "<group>"; };
 		CB0C503019B9733F00FAD89F /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = images.xcassets; path = ../images.xcassets; sourceTree = "<group>"; };
 		CB0C503219BA23B600FAD89F /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		CB0C507519BAB17C00FAD89F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CB86CA0B19B77B7B00EDEAAF /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB86CA0E19B77B7B00EDEAAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB86CA1019B77B7B00EDEAAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0C507619BAB17C00FAD89F /* QuartzCore.framework in Frameworks */,
 				CB86CA0F19B77B7B00EDEAAF /* UIKit.framework in Frameworks */,
 				CB86CA1119B77B7B00EDEAAF /* Foundation.framework in Frameworks */,
 				CB86CA1319B77B7B00EDEAAF /* CoreGraphics.framework in Frameworks */,
@@ -113,6 +116,7 @@
 		CB86CA0D19B77B7B00EDEAAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB0C507519BAB17C00FAD89F /* QuartzCore.framework */,
 				CB86CA0E19B77B7B00EDEAAF /* UIKit.framework */,
 				CB86CA1019B77B7B00EDEAAF /* Foundation.framework */,
 				CB86CA1219B77B7B00EDEAAF /* CoreGraphics.framework */,
