@@ -129,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				CB0C503219BA23B600FAD89F /* BullsEye.html */,
-				CB0C503019B9733F00FAD89F /* images.xcassets */,
 				CB86CA1D19B77B7B00EDEAAF /* DDAppDelegate.h */,
 				CB86CA1E19B77B7B00EDEAAF /* DDAppDelegate.m */,
 				CB86CA2619B77B7C00EDEAAF /* MainStoryboard.storyboard */,
@@ -137,6 +136,7 @@
 				CB86CA2A19B77B7D00EDEAAF /* DDViewController.m */,
 				CB0C502D19B9616200FAD89F /* DDAboutViewController.h */,
 				CB0C502E19B9616200FAD89F /* DDAboutViewController.m */,
+				CB0C503019B9733F00FAD89F /* images.xcassets */,
 				CB86CA1519B77B7B00EDEAAF /* Supporting Files */,
 			);
 			path = BullsEye;
